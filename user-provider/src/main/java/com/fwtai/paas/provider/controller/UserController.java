@@ -15,7 +15,8 @@ public class UserController{
     @Autowired
     private UserServiceImpl userServiceImpl;
 
-    // http://127.0.0.1:20481/login?userName=typ&password=typ
+    // http://127.0.0.1:10241/login?userName=typ&password=typ
+    // http://127.0.0.1:20481/user/login?userName=typ&password=typ
     @GetMapping("/login")
     public void login(final HttpServletRequest request,final HttpServletResponse response){
         String userName = request.getParameter("userName");

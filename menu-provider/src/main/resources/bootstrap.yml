@@ -1,6 +1,6 @@
 spring:
   application:
-    name: menu-provider
+    name: menu
   cloud:
     nacos:
       config:

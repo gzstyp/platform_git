@@ -16,6 +16,7 @@ public class MenuController{
     private MenuServiceImpl menuServiceImpl;
 
     // http://127.0.0.1:20491/add?name=typ
+    // http://127.0.0.1:20481/menu/add?name=typ
     @GetMapping("/add")
     public void add(final HttpServletRequest request,final HttpServletResponse response){
         String name = request.getParameter("name");

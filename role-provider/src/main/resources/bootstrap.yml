@@ -1,6 +1,6 @@
 spring:
   application:
-    name: role-provider
+    name: role
   cloud:
     nacos:
       config:

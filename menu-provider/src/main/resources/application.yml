@@ -2,7 +2,7 @@ server:
   port: 20491
 spring:
   application:
-    name: menu-provider
+    name: menu
   cloud:
     nacos:
       discovery:

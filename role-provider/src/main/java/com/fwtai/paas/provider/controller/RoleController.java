@@ -16,6 +16,7 @@ public class RoleController{
     private RoleServiceImpl roleServiceImpl;
 
     // http://127.0.0.1:10281/list
+    // http://127.0.0.1:20481/role/list
     @GetMapping("/list")
     public void list(final HttpServletRequest request,final HttpServletResponse response){
         final String json = roleServiceImpl.list();
