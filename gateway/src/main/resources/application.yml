@@ -50,6 +50,10 @@ spring:
           uri: lb://menu
           predicates:
             - Method=GET,POST
+        - id: product
+          uri: lb://product
+          predicates:
+            - Method=GET,POST
 #目前是无效!
 management:
   endpoints:

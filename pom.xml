@@ -14,9 +14,10 @@
         <module>bean</module>
         <module>common</module>
         <module>gateway</module>
-        <module>user-provider</module>
-        <module>role-provider</module>
-        <module>menu-provider</module>
+        <module>core-user</module>
+        <module>core-role</module>
+        <module>core-menu</module>
+        <module>product-provider</module>
     </modules>
 
     <description>
